@@ -1,4 +1,4 @@
-# Your Chatbot's Name
+# Scholarly
 
 [//]: <> (Please use this Winning Hackathon Application as an example:
 https://devpost.com/software/rewise-ai-powered-revision-bot)
@@ -39,7 +39,7 @@ Tech Stack & Documentation:
 * To communicate with each other regardless if we know how to fix something or not
 
 
-## What's next for “Scholarly”
+## What's next for Scholarly
 Product Roadmap - next features for example
 1. Expanding our database for students who will be starting college and for postgraduate degrees
 2. Providing scholarships for students from regions outside of Jamaica
