@@ -14,24 +14,25 @@ Scholarly make finding scholarships for college students easier. Additionally, i
 
 
 ## List your Chatbot’s features and use cases
-1. It displays pictures to the user and they can click on it to specify their field of study
+1. It displays a clickable button to the user 
 2. 
 
 
 ## How we built it
 Tech Stack & Documentation:
- *
+ * It was built using Python and reading lots of documentation 
  *
 
 
 ## Challenges we ran into
 1. As a group we didn't know where to start in terms of what to code and how. Luckily, we found a lot of YouTube videos and documentation online. 
-2. Challenge 2
+2. We ran into many especially when the Heroku app kept saying "Application error"
  
  
 ## Accomplishments that we're proud of
-* Accomplishment 1
-* Accomplishment 2
+* We finished within the time given to us
+* The bot is functional
+* We learnt a lot
 
 
 ## What we learned
@@ -49,8 +50,9 @@ Product Roadmap - next features for example
  1. Python
  2. Ngrok
  3. Heroku
+ 
 
 
 ## Try it out
 [Add link to Public GitHub Page](link) </br>
-[Add link to GitHub Page](link)
+https://github.com/Scholarly-ja/Messenger-Bot(link)
