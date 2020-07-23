@@ -14,14 +14,14 @@ Scholarly make finding scholarships for college students easier. Additionally, i
 
 
 ## List your Chatbot’s features and use cases
-1. It displays a clickable button to the user 
-2. 
+1. It displays a clickable buttons to the user 
+2. It solves the age-old problem of having to scan through many scholarship application websites/apps
+
 
 
 ## How we built it
 Tech Stack & Documentation:
  * It was built using Python and reading lots of documentation 
- *
 
 
 ## Challenges we ran into
@@ -55,4 +55,4 @@ Product Roadmap - next features for example
 
 ## Try it out
 [Add link to Public GitHub Page](link) </br>
-https://github.com/Scholarly-ja/Messenger-Bot(link)
+https://github.com/Scholarly-ja/Messenger-Bot 
