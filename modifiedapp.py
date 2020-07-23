@@ -5,7 +5,7 @@ from pymessenger import Bot
 
 app = Flask(__name__)
 
-PAGE_ACCESS_TOKEN = "EAAhLsI2qzIsBAHHFK3JZByCi4nCrZBbMMCFAHj60lm65swCO8cliQ5ZB72PJSsZAx2QYyaCH2OgwZAwOSj3KN8yjOZA76ZCSBsRFUpd2xmz9cVGZBJhhxNAi4RjZCZAeLj4YYnP0zbdcP91n6pcz4B5h5OMnQfwwrSAJYpmZBqLOObrBQZDZD"
+PAGE_ACCESS_TOKEN = "A4H7CGJUUGCPBKHFNB5ZBKIVLNYJVICX"
 bot = Bot(PAGE_ACCESS_TOKEN)
 
 #VERIFICATION_TOKEN = "Sl33pyW00ly"
@@ -43,8 +43,20 @@ def webhook():
                     entity, value = wit_response(message) 
 
                     if entity == "scholarship": 
-                        response = "Ok. You're in the right place! I will send you {} scholarships".format(str(value))
-                    elif entity == "field_of_study":
+                        response = "Ok. You're in the right place! I will send you {0}".format(str(value))
+                    if entity ==   "institution":
+                        response = "Great. I've heard that {0} is a great institution".format(str(value))  
+                    if entity == "degree_program":
+                        response = "Awesome! One step closer to getting that dream job!"  
+                    if entity == "year_of_study":
+                        response = "We at Scholarly are proud of you for starting your higher education journey"  
+                    if entity == "closing":
+                        response = "Bye. All the best!"        
+                    if entity == "wit/greetings":
+                        response = "Welcome to Scholarly!"
+                    if entity == "wit/thanks":
+                        response = "Thank-you"        
+                    elif entity == "wit_field_of_study":
                         response =  "Awesome! So you're studying {0}. All the best the field of {0}".format(str(value))
 
                     if entity ==  None:
