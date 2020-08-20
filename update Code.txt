@@ -1,0 +1,14 @@
+                        """ //Implementing Any School on Scholary v2.0
+                            ,{
+                                "title":"Other",
+                                "image_url":"https://s3-ap-southeast-2.amazonaws.com/geg-web/public/images/300x200/1596434755-unimelb.png",
+                                "subtitle":"Jamaica",
+                                "buttons":[
+                                    {
+                                        "type":"postback",
+                                        "title":"Continue",
+                                        "payload":"8"
+                                    }              
+                                ]      
+                            }
+                        """                            
